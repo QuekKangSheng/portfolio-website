@@ -1,65 +1,95 @@
-import Image from "next/image";
+import HeroSection from "@/components/sections/HeroSection";
+import AboutSection from "@/components/sections/AboutSection";
+import SkillsSection from "@/components/sections/SkillsSection";
+import ProjectsSection from "@/components/sections/ProjectsSection";
+import ExperienceSection from "@/components/sections/ExperienceSection";
+import EducationSection from "@/components/sections/EducationSection";
+import AwardsSection from "@/components/sections/AwardsSection";
+import ContactSection from "@/components/sections/ContactSection";
+
+/* ── Topographic contour lines background ── */
+function TopoBackground() {
+  return (
+    <div
+      className="absolute inset-0 pointer-events-none overflow-hidden"
+      style={{ zIndex: 0 }}
+    >
+      <svg
+        viewBox="0 0 1400 900"
+        preserveAspectRatio="xMidYMid slice"
+        xmlns="http://www.w3.org/2000/svg"
+        className="absolute w-full h-full"
+        style={{ opacity: 0.1 }}
+      >
+        <path d="M-100,600 C150,520 300,650 500,580 C700,510 850,640 1050,560 C1250,480 1350,580 1500,520"
+          fill="none" stroke="#D4A853" strokeWidth="1.2" />
+        <path d="M-100,540 C180,460 320,590 520,510 C720,430 880,570 1080,490 C1280,410 1380,510 1500,450"
+          fill="none" stroke="#D4A853" strokeWidth="1" />
+        <path d="M-100,480 C200,400 360,530 560,450 C760,370 920,500 1100,430 C1300,360 1400,450 1500,400"
+          fill="none" stroke="#D4A853" strokeWidth="0.8" />
+        <path d="M-100,420 C220,340 400,470 600,400 C800,330 960,450 1140,380 C1320,310 1420,400 1500,360"
+          fill="none" stroke="#D4A853" strokeWidth="0.7" />
+        <path d="M-100,360 C250,285 430,410 630,345 C830,280 1000,395 1170,330 C1340,265 1430,350 1500,310"
+          fill="none" stroke="#D4A853" strokeWidth="0.6" />
+        <path d="M-100,660 C120,590 280,710 480,640 C680,570 820,700 1020,625 C1220,550 1340,645 1500,590"
+          fill="none" stroke="#D4A853" strokeWidth="1.3" />
+        <path d="M-100,720 C100,660 260,770 460,700 C660,630 800,755 1000,685 C1200,615 1330,710 1500,660"
+          fill="none" stroke="#D4A853" strokeWidth="1.5" />
+        <path d="M-100,780 C80,730 240,820 440,760 C640,700 780,810 980,745 C1180,680 1320,770 1500,730"
+          fill="none" stroke="#D4A853" strokeWidth="1.8" />
+        <path d="M-100,300 C270,230 460,350 660,290 C860,230 1040,340 1200,280 C1360,220 1440,300 1500,260"
+          fill="none" stroke="#D4A853" strokeWidth="0.5" />
+        <path d="M-100,240 C290,175 490,295 690,240 C890,185 1080,290 1240,235 C1380,180 1450,255 1500,215"
+          fill="none" stroke="#D4A853" strokeWidth="0.4" />
+        <path d="M-100,180 C310,120 520,240 720,185 C920,130 1120,240 1270,185 C1400,140 1460,210 1500,170"
+          fill="none" stroke="#D4A853" strokeWidth="0.35" />
+        {[
+          [200, 595], [500, 565], [800, 540], [1100, 510], [1300, 535],
+          [150, 475], [450, 445], [750, 420], [1050, 395], [1250, 415],
+          [300, 355], [600, 330], [900, 305], [1150, 290],
+        ].map(([x, y], i) => (
+          <line key={i} x1={x} y1={y - 5} x2={x} y2={y + 5}
+            stroke="#F0C060" strokeWidth="0.8" />
+        ))}
+      </svg>
+    </div>
+  );
+}
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <>
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
+
+      {/* ── Shared wrapper: Experience (left) + Education (right) ── */}
+      <section
+        className="section-padding relative overflow-hidden"
+        style={{ background: "var(--bg-secondary)" }}
+      >
+        <TopoBackground />
+        <div
+          className="absolute top-0 left-0 right-0 h-px"
+          style={{
+            background: "linear-gradient(90deg, transparent, var(--border-accent), transparent)",
+            zIndex: 1,
+          }}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+        <div className="container-custom" style={{ position: "relative", zIndex: 1 }}>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
+            <ExperienceSection />
+            <EducationSection />
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </section>
+
+      {/* ── Awards & Achievements ── */}
+      <AwardsSection />
+
+      {/* ── Contact ── */}
+      <ContactSection />
+    </>
   );
 }
