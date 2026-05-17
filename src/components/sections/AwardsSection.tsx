@@ -19,7 +19,7 @@ const AWARDS = [
     description:
       "Competed against ITE, Polytechnic and University students across Singapore with our Flex Sensor Glove project — an integrated hardware-software solution supporting fine motor skills training for autistic children. Advanced through to the Semifinals and clinched Gold placement.",
     highlight: true,
-    certificate: "/certificates/artsic-certificate.jpg",
+    certificate: "https://res.cloudinary.com/doe5rqhxw/image/upload/v1779005767/artsic-certificate_c7dlng.jpg",
   },
   {
     title: "Merit Award",
@@ -31,7 +31,7 @@ const AWARDS = [
     description:
       "Represented Singapore in an international competition with our Flex Sensor Glove project, competing against teams from multiple countries. The project developed smart gloves with flex sensors to capture finger movement data, paired with a sensor-integrated mobile game and analytics dashboard to support rehabilitation for the elderly and disabled.",
     highlight: true,
-    certificate: "/certificates/gsic-certificate.jpg",
+    certificate: "https://res.cloudinary.com/doe5rqhxw/image/upload/v1779005762/gsic-certificate_qbef7f.jpg",
   },
   {
     title: "Semifinalist",
