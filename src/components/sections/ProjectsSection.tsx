@@ -46,15 +46,15 @@ const PROJECTS: Project[] = [
     githubUrl: "https://github.com/itsryanloh/wad2-g10t6.git",
     pdfUrl: "/projects/project-adore/Adore.pdf",
     images: [
-      "/projects/project-adore/1.png",
-      "/projects/project-adore/2.png",
-      "/projects/project-adore/3.png",
-      "/projects/project-adore/4.png",
-      "/projects/project-adore/5.png",
-      "/projects/project-adore/6.png",
-      "/projects/project-adore/7.png",
-      "/projects/project-adore/8.png",
-      "/projects/project-adore/9.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749201/1_xjy3ho.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749202/2_kabrz3.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749194/3_fwfvvc.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749195/4_o4eeqh.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749196/5_vgotus.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749197/6_nxrbl4.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749198/7_ruq2iw.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749199/8_fwr9ob.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749200/9_hoqst5.png",
     ],
   },
   {
@@ -73,12 +73,12 @@ const PROJECTS: Project[] = [
     pdfUrl: "/projects/optiplan/report.pdf",
     zipUrl: "/projects/optiplan/optiplan.zip",
     images: [
-      "/projects/optiplan/1.jpg",
-      "/projects/optiplan/2.jpg",
-      "/projects/optiplan/3.jpg",
-      "/projects/optiplan/4.jpg",
-      "/projects/optiplan/5.jpg",
-      "/projects/optiplan/6.jpg",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749175/1_md0wzr.jpg",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749176/2_zviht1.jpg",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749177/3_tkaqkw.jpg",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749178/4_vngvjm.jpg",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749179/5_exmghz.jpg",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749180/6_zgumru.jpg",
     ],
   },
   {
@@ -96,15 +96,15 @@ const PROJECTS: Project[] = [
     imageFit: "contain",
     zipUrl: "/projects/fine-motor-skills/fine-motor-skills.zip",
     images: [
-      "/projects/fine-motor-skills/0.png",
-      "/projects/fine-motor-skills/1.png",
-      "/projects/fine-motor-skills/2.png",
-      "/projects/fine-motor-skills/3.png",
-      "/projects/fine-motor-skills/4.png",
-      "/projects/fine-motor-skills/5.png",
-      "/projects/fine-motor-skills/6.png",
-      "/projects/fine-motor-skills/7.png",
-      "/projects/fine-motor-skills/8.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749114/0_x6k2ci.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749134/1_ubyb5q.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749135/2_z1r25h.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749135/3_gyamge.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749136/4_hi1nxt.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749135/5_qtgmab.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749136/6_p6crwx.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749137/7_yhqhj4.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749138/8_xmqvzr.png",
     ],
   },
   {
@@ -123,22 +123,22 @@ const PROJECTS: Project[] = [
     githubUrl: "https://github.com/WeiShenL/G4T4-IS213.git",
     zipUrl: "/projects/feast-finder/feast-finder.zip",
     images: [
-      "/projects/feast-finder/1.png",
-      "/projects/feast-finder/2.png",
-      "/projects/feast-finder/3.png",
-      "/projects/feast-finder/4.png",
-      "/projects/feast-finder/5.png",
-      "/projects/feast-finder/6.png",
-      "/projects/feast-finder/7.png",
-      "/projects/feast-finder/8.png",
-      "/projects/feast-finder/9.png",
-      "/projects/feast-finder/10.png",
-      "/projects/feast-finder/11.png",
-      "/projects/feast-finder/12.png",
-      "/projects/feast-finder/13.png",
-      "/projects/feast-finder/14.png",
-      "/projects/feast-finder/15.png",
-      "/projects/feast-finder/16.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749041/1_ofup4j.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749037/2_twnjgh.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749037/3_wh47ry.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749037/4_tc0krp.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749038/5_c80x9y.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749038/6_fauakg.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749039/7_vrreyf.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749040/8_i2mbrc.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749040/9_a6unrd.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749034/10_ogpdqj.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749035/11_ee2bqu.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749035/12_zln55e.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749036/13_tksles.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749036/14_lkftok.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749036/15_nlyvth.png",
+      "https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749037/16_z0xjah.png",
     ],
   },
   {
@@ -156,7 +156,7 @@ const PROJECTS: Project[] = [
     zipUrl: "/projects/sustain-wardrobe/sustain-wardrobe.zip",
     figmaUrl: "https://www.figma.com/design/QFTsBLtIUMir7RAkwqzgn6/Sustain-Wardrobe?node-id=2311-1633&t=1XwpYWEM2du4yMGE-1",
     prototypeUrl: "https://www.figma.com/proto/QFTsBLtIUMir7RAkwqzgn6/Sustain-Wardrobe?node-id=2317-526&t=IxhsYY45PRXSc3D8-1&scaling=scale-down&content-scaling=fixed&page-id=2311%3A1633&starting-point-node-id=2317%3A526&show-proto-sidebar=1",
-    images: ["/projects/sustain-wardrobe/1.png"],
+    images: ["https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749209/1_unqbp6.png"],
   },
   {
     id: "labarber",
@@ -173,7 +173,7 @@ const PROJECTS: Project[] = [
     zipUrl: "/projects/la-barber/la-barber.zip",
     figmaUrl: "https://www.figma.com/design/QfyHluNsP3rAsiHUy5ByVE/LABarber?node-id=0-1&t=FrcD7sXXXUq3OGUl-1",
     prototypeUrl: "https://www.figma.com/proto/QfyHluNsP3rAsiHUy5ByVE/LABarber?node-id=9-225&t=G3guz8SEr777Uw0B-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A225&show-proto-sidebar=1",
-    images: ["/projects/la-barber/1.png"],
+    images: ["https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749158/1_bzpn59.png"],
   },
   {
     id: "bto-process",
@@ -188,7 +188,7 @@ const PROJECTS: Project[] = [
     isPrivate: true,
     featured: false,
     zipUrl: "/projects/bto-process/bto-process.zip",
-    images: ["/projects/bto-process/1.png"],
+    images: ["https://res.cloudinary.com/doe5rqhxw/image/upload/v1778749004/1_xvff67.png"],
   },
 ];
 
@@ -264,17 +264,17 @@ function ImageGallery({
   }
 
   return (
-    <div className="relative w-full overflow-hidden" style={{ height: "560px" }}>
-      <img
+    <div className="relative w-full overflow-hidden" style={{ aspectRatio: "16/9" }}>      
+    <img
         src={images[current]}
         alt={`${title} — image ${current + 1}`}
         style={{
-          width: "100%", height: "100%",
-          objectFit: imageFit,
-          objectPosition: "top center",
-          background: "var(--bg-elevated)",
-          transition: "opacity 0.5s",
-        }}
+        width: "100%", height: "100%",
+        objectFit: "contain",
+        objectPosition: "center center",
+        background: "var(--bg-elevated)",
+        transition: "opacity 0.5s",
+      }}
       />
       {images.length > 1 && (
         <>
@@ -460,8 +460,8 @@ function ProjectCard({ project, onClick }: { project: Project; onClick: () => vo
     >
       {/* Thumbnail */}
       <div
-        className="relative w-full overflow-hidden flex items-center justify-center"
-        style={{ height: "220px", background: "var(--bg-elevated)", borderBottom: "1px solid var(--border-subtle)" }}
+        className="relative w-full overflow-hidden"
+        style={{ height: "200px", background: "var(--bg-elevated)", borderBottom: "1px solid var(--border-subtle)" }}
       >
         {project.images.length > 0 ? (
           <img
@@ -470,7 +470,7 @@ function ProjectCard({ project, onClick }: { project: Project; onClick: () => vo
             style={{
               width: "100%", height: "100%",
               objectFit: project.imageFit ?? "cover",
-              objectPosition: "top center",
+              objectPosition: "center center",
               background: "var(--bg-elevated)",
             }}
           />
